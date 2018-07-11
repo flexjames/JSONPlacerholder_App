@@ -1,0 +1,48 @@
+{
+  "name": "jsonplaceholder_react",
+  "version": "1.0.0",
+  "description": "coding task",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot --mode development",
+    "build": "webpack --mode development"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "react-router"
+  ],
+  "author": "James Ma",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "flux": "^3.1.3",
+    "img-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "uuid": "^3.3.2",
+    "webpack": "^4.14.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack-cli": "^3.0.8"
+  }
+}
